@@ -1,0 +1,23 @@
+users:
+  - name: Alice Smith
+    username: asmith
+    email: alice@example.com
+    active: true
+    roles:
+      - admin
+      - editor
+
+  - name: Bob Johnson
+    username: bjohnson
+    email: bob@example.com
+    active: false
+    roles:
+      - viewer
+
+settings:
+  theme: dark
+  language: en
+  notifications:
+    email: true
+    sms: false
+    push: true

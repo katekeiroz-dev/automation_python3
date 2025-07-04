@@ -28,3 +28,6 @@ def organizeDirectory():
         if not directoryPath.is_dir():  # Create directory if it doesn't already exist
             directoryPath.mkdir()
         filePath.rename(directoryPath.joinpath(filePath))  # Move file to the appropriate folder
+
+
+organizeDirectory()
